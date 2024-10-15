@@ -26,7 +26,7 @@ body {
 #todo {
   color: #2fa2a2;
   outline: none;
-  padding:10px;
+  padding: 10px;
   font-size: 18px;
   flex-grow: 1;
   border: 1px solid #daa520;
@@ -49,39 +49,42 @@ body {
   background-color: rgb(47, 162, 162, 0.1);
   border-bottom: 1px solid rgb(47, 162, 162, 0.2);
 }
-.todoItem:hover{
-    background-color: rgb(47, 162, 162, 0.5);
+.todoItem:hover {
+  background-color: rgb(47, 162, 162, 0.5);
 }
 .todoItem div:first-child {
   display: flex;
 }
-.todoItem p{
-    margin-left: 10px;
-    color: #2fa2a2;
-    font-size: 18px;
+.todoItem p {
+  margin-left: 10px;
+  color: #2fa2a2;
+  font-size: 18px;
 }
-.todoItem i{
-    margin-left:20px;
-    cursor: pointer;
+.todoItem i {
+  margin-left: 20px;
+  cursor: pointer;
 }
-.todoItem i:hover{
-    color: #fff;
+.todoItem i:hover {
+  color: #fff;
 }
-.card-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0px;
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
 }
-.card-footer p{
-    font-size: 20px;
-    color: #2fa2a2;
+.card-footer p {
+  font-size: 20px;
+  color: #2fa2a2;
 }
-.card-footer button{
-    padding: 10px;
-    background-color: #2fa2a2;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 20px;
+.card-footer button {
+  padding: 10px;
+  background-color: #2fa2a2;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+}
+.done {
+  text-decoration: line-through;
 }
