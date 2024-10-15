@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+}
+body {
+  background-color: #2fa2a2;
+}
+.card {
+  background-color: #fff;
+  width: 40%;
+  padding: 30px;
+  margin: 50px auto;
+}
+.card-header {
+  text-transform: uppercase;
+  text-align: center;
+  color: #656565;
+  font-size: 48px;
+}
+.input-group {
+  height: 50px;
+  display: flex;
+  margin: 20px 0px;
+}
+#todo {
+  color: #2fa2a2;
+  outline: none;
+  padding:10px;
+  font-size: 18px;
+  flex-grow: 1;
+  border: 1px solid #daa520;
+  margin-right: 5px;
+}
+#addTodo {
+  width: 50px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  background-color: #2fa2a2;
+}
+.todoItem {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: rgb(47, 162, 162, 0.1);
+  border-bottom: 1px solid rgb(47, 162, 162, 0.2);
+}
+.todoItem:hover{
+    background-color: rgb(47, 162, 162, 0.5);
+}
+.todoItem div:first-child {
+  display: flex;
+}
+.todoItem p{
+    margin-left: 10px;
+    color: #2fa2a2;
+    font-size: 18px;
+}
+.todoItem i{
+    margin-left:20px;
+    cursor: pointer;
+}
+.todoItem i:hover{
+    color: #fff;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.card-footer p{
+    font-size: 20px;
+    color: #2fa2a2;
+}
+.card-footer button{
+    padding: 10px;
+    background-color: #2fa2a2;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/app.js"></script>
+    
+  <body>
+    <div class="card">
+      <h1 class="card-header">TodoList</h1>
+      <div class="card-body">
+        <div class="input-group">
+          <input type="text" id="todo" placeholder="Enter todo" />
+          <button id="addTodo">+</button>
+        </div>
+        <div id="todoList">
+          <div class="todoItem">
+            <div>
+              <input  type="checkbox" data-id="A1"/>
+              <p>read the book</p>
+            </div>
+            <div>
+              <i class="editTodo fa-solid fa-pen-to-square"></i>
+              <i class="removeTodo fa-solid fa-xmark"></i>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="card-footer">
+        <p id="rate">1 of 2 done</p>
+        <button id="removeCheck">Remove checked <i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </body>
+</html>
